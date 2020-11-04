@@ -2,7 +2,6 @@ describe("User can navigate the app", () => {
     beforeEach(() => {
         cy.visit("http://localhost:3000");
     });
-});
 
 describe('to About tab and it', () => {
     beforeEach(() => {
@@ -21,7 +20,7 @@ describe('to About tab and it', () => {
         cy.get("#projects-header").should("not.exist");
     });
 
-    it("does not display Hello World", () => {
+    it("does not display Hello world", () => {
         cy.get("#hello").should("not.exist");
     });
 })
@@ -60,7 +59,7 @@ describe("back to My Portfolio/Hello tab and it", () => {
 
     it("displays correct url", () => {
         cy.url()
-        .should("not.contain", "projects");
+        .should("not.contain", "projects")
         .and("not.contain", "about");
     });
 
@@ -72,5 +71,4 @@ describe("back to My Portfolio/Hello tab and it", () => {
         cy.get("#projects-header").should("not.exist");
     });
 });
-
-
+});

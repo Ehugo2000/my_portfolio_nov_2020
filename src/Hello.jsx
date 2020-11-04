@@ -6,7 +6,7 @@ const Hello = () => {
         <Container>
             <h1 id="hello">Hello World</h1>
         </Container>
-    )
-}
+    );
+};
 
 export default Hello
