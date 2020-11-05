@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
                 <Card.Description>{project.description}</Card.Description>
             </Card.Content>
         </Card>
-    )
-}
+    );
+};
 
 export default ProjectCard;
