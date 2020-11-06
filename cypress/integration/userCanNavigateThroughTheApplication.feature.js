@@ -71,4 +71,27 @@ describe("back to My Portfolio/Hello tab and it", () => {
         cy.get("#projects-header").should("not.exist");
     });
 });
+
+describe("to cv tab and it", () => {
+    beforeEach(() =>{
+        cy.get("#cv").click();
+    });
+
+    it("displays cv header", () => {
+        cy.get("#cv-header").should("contain", "Curriculum vitae");
+    });
+
+    it("displays component name in url", () => {
+        cy.url().should("contain", "cv");
+    });
+
+    it("does not displays About Me header", () => {
+        cy.get("#about-header").should("not.exist");
+    });
+
+    it("does not display Hello World", () => {
+        cy.get("#hello").should("not.exist");
+    });
+});
+
 });
