@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer>
-        <h1 id="footer">Made with React {React.version}</h1>
+        <h2 id="footer">contact: erik [at] halleryd.se</h2>
         </footer>
     )
 }

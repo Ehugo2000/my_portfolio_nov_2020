@@ -10,10 +10,13 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
+*/
 
 
 footer {
+  font-family: sans-serif;
+  font-style: italic;
   position: absolute;
   bottom: 0;
   width: 100%;
