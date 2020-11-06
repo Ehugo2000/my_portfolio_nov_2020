@@ -29,7 +29,7 @@ it("displays third project", () => {
         cy.get(".description").should("contain",
         "I like to design for the mobile plattform. The challenges to build UI's for smartphones is challenging but extremely rewarding.");
     });
-})
+});
 
 
 })
