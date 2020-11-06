@@ -2,19 +2,19 @@
     {
         "id": 1,
         "name": "My First Website",
-        "image": "https://freepngimg.com/thumb/the_legend_of_zelda/21467-3-zelda-link-photos.png",
+        "image": "./image/projectpic1.png",
         "description": "This was my first project. The guy lost, but won the popular vote!"
     },
     {
         "id": 2,
         "name": "FizzBuzz",
-        "image": "https://freepngimg.com/thumb/the_legend_of_zelda/21467-3-zelda-link-photos.png",
+        "image": "./image/projectpic1.png",
         "description": "Designing user interfaces is fun. I want to learn more about that..."
     },
     {
         "id": 3,
         "name": "Mobile UX",
-        "image": "https://freepngimg.com/thumb/the_legend_of_zelda/21467-3-zelda-link-photos.png",
+        "image": "./image/projectpic1.png",
         "description": "I like to design for the mobile plattform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     }
 ]
