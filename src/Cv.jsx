@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from "semantic-ui-react"
 
+
 const Cv = () => {
     return (
         <Container>
@@ -10,7 +11,7 @@ const Cv = () => {
          <br></br>
          <br></br>
         <h3>Work experience</h3>
-        <bold>2016 – present:</bold> Eckenstam AB. 
+        2016 – present: Eckenstam AB. 
         <br></br>
         2014 – 2016: Carlsquare, financial analyst.
         <br></br>
@@ -28,5 +29,9 @@ const Cv = () => {
         </Container>
     );
 };
+
+
+  
+  
 
 export default Cv;

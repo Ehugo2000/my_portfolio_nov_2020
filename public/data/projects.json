@@ -9,7 +9,8 @@
         "id": 2,
         "name": "FizzBuzz",
         "image": "./image/projectpic1.png",
-        "description": "Designing user interfaces is fun. I want to learn more about that..."
+        "description": "A Fizzbuzz application in Ruby. \n https://github.com/Ehugo2000/fizz_buzz_2020_sept"
+        
     },
     {
         "id": 3,
