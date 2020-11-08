@@ -1,31 +1,39 @@
 import React from 'react';
-import { Container } from "semantic-ui-react";
+import { Container, Grid, Icon } from "semantic-ui-react";
 
 const About = () => {
     return (
-        <Container>
+      <Container>
         <h1 id="about-header">About Me</h1>
-        <div class="ui list">
-  <div class="item">
-    <i class="marker icon"></i>
-    <div class="content">
-      Stockholm, SWE
-    </div>
-  </div>
-  <div class="item">
-    <i class="mail icon"></i>
-    <div class="content">
-      <a href="mailto:jack@semantic-ui.com">erik@halleryd.se</a>
-    </div>
-  </div>
-  <div class="item">
-    <i class="linkify icon"></i>
-    <div class="content">
-      <a href="https://github.com/Ehugo2000">GitHub</a>
-    </div>
-  </div>
-</div>
-        </Container>
+        <br></br>
+
+  <Grid columns='two' divided>
+    <Grid.Row>
+      <Grid.Column>
+      <Icon name="laptop" size="big" />
+      <br></br>
+      <p>Currently enrolled in Craft Academy Boothcamp</p>
+      </Grid.Column>
+    </Grid.Row>
+
+    <Grid.Row>
+      <Grid.Column>
+      <Icon name="dollar sign" size="big" />
+      <br></br>
+      <p>Working as financial consultant</p>
+      </Grid.Column>
+     </Grid.Row>
+
+    <Grid.Row>
+      <Grid.Column>
+      <Icon name="home" size="big" />
+      <br></br>
+      <p>Living in Stockholm - Sweden</p>
+      </Grid.Column>
+    </Grid.Row>
+  
+  </Grid>
+          </Container>
     );
 };
 

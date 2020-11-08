@@ -7,9 +7,9 @@ describe("User can see list of projects", () => {
 it("displays first project", () => {
     cy.get("#project-1").within(() => { 
         cy.get(".image").should("exist");
-        cy.get(".header").should("contain", "My First Website");
+        cy.get(".header").should("contain", "BMI Calculator");
         cy.get(".description").should("contain",
-        "This was my first project. The guy lost, but won the popular vote!");
+        "An application which lets the user type in their height and weight to check BMI.");
     });
 })
 
@@ -18,16 +18,16 @@ it("displays second project", () => {
         cy.get(".image").should("exist");
         cy.get(".header").should("contain", "FizzBuzz");
         cy.get(".description").should("contain",
-        "Designing user interfaces is fun. I want to learn more about that...");
+        "An application which lets the user to play FizzBuzz.");
     });
 })
 
 it("displays third project", () => {
     cy.get("#project-3").within(() => { 
         cy.get(".image").should("exist");
-        cy.get(".header").should("contain", "Mobile UX");
+        cy.get(".header").should("contain", "Automated Teller Machine");
         cy.get(".description").should("contain",
-        "I like to design for the mobile plattform. The challenges to build UI's for smartphones is challenging but extremely rewarding.");
+        "A back-end application which lets the user to insert and withdraw cash from an ATM.");
     });
 });
 

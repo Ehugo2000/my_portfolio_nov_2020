@@ -1,37 +1,71 @@
 import React from 'react'
-import { Container } from "semantic-ui-react"
+import { Container, Grid, Icon, Divider, Header, List } from "semantic-ui-react"
 
 
 const Cv = () => {
     return (
         <Container>
-        
          <h1 id="cv-header">Curriculum vitae</h1>
-         <p>
-         <br></br>
-         <br></br>
-        <h3>Work experience</h3>
-        2016 – present: Eckenstam AB. 
-        <br></br>
-        2014 – 2016: Carlsquare, financial analyst.
-        <br></br>
-        Early years: Pig farm & Horse ranch.
-        <br></br>
-        <br></br>
-        <h3>Education</h3>
-        
-        2020: Craft Academy, Fullstack developer.
-        <br></br>
-        2012: Stockholm School of Economics, Master in Economics and Business.
-        
-        </p>     
-            
-        </Container>
+
+    <div id="work-experience">
+      <Divider horizontal>
+        <Header as="h3">
+            Work Experience 
+        </Header>
+      </Divider>
+      
+      <Grid columns={1} textAlign="left">
+        <Grid.Column width={12}>
+            <p>
+            2016 – present: &ensp;Eckenstam AB.
+            <br></br>
+            2014 – 2016: &ensp;&ensp;&ensp;Carlsquare, financial analyst.
+            <br></br>
+            Early years: &ensp;&ensp;&ensp;&ensp;&ensp;Pig farm & Horse ranch, farmhand.
+            </p>
+        </Grid.Column>
+      </Grid>
+    </div>
+    <br></br>
+
+    <div id="education">
+      <Divider horizontal>
+        <Header as="h3">
+            Education
+        </Header>
+      </Divider>
+
+      <Grid columns={1} textAlign="left">
+        <Grid.Column width={12}>
+            <p>
+            2020:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Craft Academy, Fullstack developer.
+            <br></br>
+            2014 – 2016: &ensp;&ensp;&ensp;Stockholm School of Economics, Master in Economics and Business.
+            </p>
+        </Grid.Column>
+      </Grid>
+    </div>
+    <br></br>
+
+    <div id="education">
+      <Divider horizontal>
+        <Header as="h3">
+        Computer literacy
+        </Header>
+      </Divider>
+      <Grid columns={1} textAlign="left">
+        <Grid.Column width={12}>
+            <p>
+            HTML | CSS | JavaScript | React | Ruby | Cypress | Rspec 
+            </p>
+        </Grid.Column>
+      </Grid>
+    </div>
+    <br></br>
+                   
+ </Container>
     );
 };
 
-
-  
-  
 
 export default Cv;

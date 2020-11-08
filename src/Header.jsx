@@ -8,7 +8,7 @@ const Header = () => {
        <Menu inverted secondary>
        <Menu.Item
         id="header"
-        name="My portfolio"
+        name="Hello"
         as={Link}
         to={{ pathname: "/" }}
        />

@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer>
-        <h2 id="footer">contact: erik [at] halleryd.se</h2>
+        <h4 id="footer">eh.softwareanddesign@gmail.com</h4>
         </footer>
     )
 }

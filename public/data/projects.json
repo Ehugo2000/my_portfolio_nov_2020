@@ -1,21 +1,27 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
+        "name": "BMI Calculator",
         "image": "./image/projectpic1.png",
-        "description": "This was my first project. The guy lost, but won the popular vote!"
+        "description": "An application which lets the user type in their height and weight to check BMI.",
+        "language": "HTML | CSS | JavaScript",
+        "github": "https://github.com/Ehugo2000/BMI_Calculator.git"
     },
     {
         "id": 2,
         "name": "FizzBuzz",
         "image": "./image/projectpic1.png",
-        "description": "A Fizzbuzz application in Ruby. \n https://github.com/Ehugo2000/fizz_buzz_2020_sept"
+        "description": "An application which lets the user to play FizzBuzz.",
+        "language": "Ruby | RSpec",
+        "github": "https://github.com/Ehugo2000/fizz_buzz_2020_sept.git"
         
     },
     {
         "id": 3,
-        "name": "Mobile UX",
+        "name": "Automated Teller Machine",
         "image": "./image/projectpic1.png",
-        "description": "I like to design for the mobile plattform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+        "description": "A back-end application which lets the user to insert and withdraw cash from an ATM.",
+        "language": "Ruby | RSpec | Pry",
+        "github": "https://github.com/Ehugo2000/atm_challenge_2020.git"
     }
 ]

@@ -11,6 +11,12 @@ class Projects extends Component {
         projects: [],
     };
 
+    componentDidMount() {
+        axios.get("./data/projects.json").then((response) => {
+            this.setState({ projects: response.data });
+        })
+    }
+
     render() {
         const { projects } = this.state;
 
@@ -18,23 +24,21 @@ class Projects extends Component {
             return (
                 <div id={`project-${project.id}`} key={project.id}>
                 <ProjectCard project={project} />
+                <br></br>
                 </div>
+                
             );
         });
 
         return (
             <Container>
                 <h1 id="projects-header">My Projects</h1>
+                <br></br>
                 <Grid>{projectsList}</Grid>
             </Container>
         );
     }
-
-    componentDidMount() {
-        axios.get("./data/projects.json").then((response) => {
-            this.setState({ projects: response.data });
-        })
-    }
+   
 }
 
 
