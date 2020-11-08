@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid, Icon, Divider, Header, List } from "semantic-ui-react"
+import { Container, Grid, Divider, Header } from "semantic-ui-react"
 
 
 const Cv = () => {
