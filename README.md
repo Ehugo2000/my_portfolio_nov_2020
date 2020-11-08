@@ -21,6 +21,7 @@ Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)
 ## Update and Improvement plans
 
 - Improve general layout
+- Add new components and refactoring code
 - Continuously update My Projects
 
 ## License

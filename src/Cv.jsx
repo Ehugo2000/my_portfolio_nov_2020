@@ -7,6 +7,20 @@ const Cv = () => {
         <Container>
          <h1 id="cv-header">Curriculum vitae</h1>
 
+         <div id="work-experience">
+     
+      <Grid columns={1} textAlign="left">
+        <Grid.Column width={12}>
+            <p>
+            <i>An astute multi-faceted skåning with over a decade of experience within finance and management.<br></br>
+            Today I run a consulting firm, specialized in business strategy and capital placement.<br></br>
+            Currently studying Full Stack Web Development at Craft Academy. </i>
+            </p>
+        </Grid.Column>
+      </Grid>
+    </div>
+    <br></br>
+    
     <div id="work-experience">
       <Divider horizontal>
         <Header as="h3">

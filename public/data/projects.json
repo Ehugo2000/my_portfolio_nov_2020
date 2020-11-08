@@ -20,7 +20,7 @@
         "id": 3,
         "name": "Automated Teller Machine",
         "image": "./image/projectpic1.png",
-        "description": "A back-end application which lets the user to insert and withdraw cash from an ATM.",
+        "description": "An application which lets the user to insert and withdraw cash from an ATM.",
         "language": "Ruby | RSpec | Pry",
         "github": "https://github.com/Ehugo2000/atm_challenge_2020.git"
     }
