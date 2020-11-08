@@ -5,11 +5,26 @@ const About = () => {
     return (
         <Container>
         <h1 id="about-header">About Me</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        </p>
+        <div class="ui list">
+  <div class="item">
+    <i class="marker icon"></i>
+    <div class="content">
+      Stockholm, SWE
+    </div>
+  </div>
+  <div class="item">
+    <i class="mail icon"></i>
+    <div class="content">
+      <a href="mailto:jack@semantic-ui.com">erik@halleryd.se</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="linkify icon"></i>
+    <div class="content">
+      <a href="https://github.com/Ehugo2000">GitHub</a>
+    </div>
+  </div>
+</div>
         </Container>
     );
 };
