@@ -47,7 +47,7 @@ const Cv = () => {
     </div>
     <br></br>
 
-    <div id="education">
+    <div id="Computer-literacy">
       <Divider horizontal>
         <Header as="h3">
         Computer literacy

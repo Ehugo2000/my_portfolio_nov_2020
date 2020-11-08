@@ -74,7 +74,7 @@ describe("back to My Portfolio/Hello tab and it", () => {
 
 describe("to cv tab and it", () => {
     beforeEach(() =>{
-        cy.get("#cv").click();
+        cy.get("#cv-tab").click();
     });
 
     it("displays cv header", () => {
