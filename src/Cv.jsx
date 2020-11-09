@@ -54,7 +54,7 @@ const Cv = () => {
             <p>
             2020:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Craft Academy, Fullstack developer.
             <br></br>
-            2014 – 2016: &ensp;&ensp;&ensp;Stockholm School of Economics, Master in Economics and Business.
+            2012:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Stockholm School of Economics, Master in Economics and Business.
             </p>
         </Grid.Column>
       </Grid>
